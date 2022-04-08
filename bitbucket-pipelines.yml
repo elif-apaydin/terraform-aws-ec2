@@ -1,0 +1,10 @@
+pipelines:
+    custom:
+      ec2:
+        - step:
+            name: EC2 Deploy
+            image: hashicorp/terraform:full
+            deployment: Production
+            script:
+                - sed -i -e "4i $EC2_BACKEND" backend.tf
+                - sh deploy.sh
