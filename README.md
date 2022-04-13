@@ -2,7 +2,7 @@
 
 This repository provides EC2 instance deployment using AWS EC2 service with Terraform.
 
-<img src='src/terraform.png' width="200" height="400"'> <img src='src/aws.png' width="200" height="400">
+![](src/terraform-aws.png)
 
 ### Parts of this repository ###
 * [Main.tf](https://github.com/elif-apaydin/terraform-aws-ec2/tree/main/main.tf)
